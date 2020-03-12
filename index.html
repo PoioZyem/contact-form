@@ -10,41 +10,41 @@
 </head>
 <body>
 
-  <section>
-    <div class="">
+  <section class="contact pad-t-2 pad-b-2">
+    <div class="max-length">
       <h1>Send us a sweet little note</h1>
+
+      <form class="push-0" action="https://formspree.io/bradlet@algonquincollege.com" method="post">
+
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+
+        <div class="push">
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        </div>
+
+        <div class="push">
+          <label for="subject">Subject</label>
+          <select id="subject" name="_subject">
+            <option value="">Get a quote</option>
+            <option value="">General question</option>
+            <option value="">Just to talk</option>
+          </select>
+        </div>
+
+        <div class="push">
+          <label for="details">What's up</label>
+          <textarea id="details" name="message" required></textarea>
+        </div>
+
+        <div class="">
+          <button class="btn btn-light mega" type="submit">Send message</button>
+        </div>
+      </form>
     </div>
-
-    <form class="" action="index.html" method="post">
-
-      <div class="">
-        <label for="name">Name</label>
-        <input id="name" required>
-      </div>
-
-      <div class="">
-        <label for="email">Your email</label>
-        <input id="email" type="email" placeholder="me@me.com" required>
-      </div>
-
-      <div class="">
-        <label for="subject">Subject</label>
-        <select id="subject">
-          <option value="">Get a quote</option>
-          <option value="">General question</option>
-          <option value="">Just to talk</option>
-        </select>
-      </div>
-
-      <div class="">
-        <label for="details">What's up</label>
-        <textarea id="details" required></textarea>
-      </div>
-
-      <div class="">
-        <button type="submit">Send message</button>
-      </div>
-    </form>
   </section>
 
 </body>
